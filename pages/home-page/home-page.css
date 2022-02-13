@@ -48,6 +48,11 @@
     cursor: pointer;
 }
 
+.men-card:hover, .women-card:hover, .kids-card:hover, .best-card:hover{
+
+    transform: scale(1.05);
+}
+
 .img-card {
 
     width: 15rem;
