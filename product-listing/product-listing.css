@@ -69,8 +69,6 @@ input {
 .filter-category .inp-checkbox {
 
     display: flex;
-    /* justify-content: flex-start; 
-    align-items: center; */
     column-gap: 0.6rem;
 }
 
@@ -155,8 +153,7 @@ input {
 
     font-size: 0.9rem;
     font-weight: 600;
-    margin-top: 0.9rem;
-    margin-left: 0.5rem;
+    margin: 0.9rem 0 0 0.5rem;
 }
 
 .card-subtext {
