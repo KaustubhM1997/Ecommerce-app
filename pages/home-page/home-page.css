@@ -60,6 +60,11 @@
     object-fit: cover;  
 }
 
+.adjust {
+
+    height: 29vh;
+}
+
 .card-heading {
 
     text-align: center;
@@ -81,7 +86,3 @@ text-decoration: underline var(--secondary-color);
 
 }
 
-.adjust {
-
-    height: 29vh;
-}
