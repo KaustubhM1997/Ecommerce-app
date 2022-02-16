@@ -1,27 +1,5 @@
 @import url(/main.css);
 
-* {
-
-
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-
-}
-
-
-.main-wrapper {
-
-    display: grid;
-    height: 100vh;
-    grid-gap: 2rem;
-    grid-template-columns: 1fr 7fr;
-    padding-bottom: 0.5rem;
-    grid-template-areas: "header header" "aside main";
-    margin-top: 1rem;
-    padding-right: 1.5rem;
-
-}
 
 .flex-column {
 
@@ -93,7 +71,8 @@ input {
 
     grid-area: main;
 
-    margin-top: 2rem;
+    margin-top: 0.5rem;
+    padding: 1rem;
 }
 
 .item-heading {
@@ -102,6 +81,8 @@ input {
     justify-content: flex-start;
     align-items: center;
     column-gap: 0.5rem;
+    margin-bottom: 1rem;
+    text-decoration: underline var(--secondary-color);
     
 }
 
@@ -188,20 +169,34 @@ input {
     font-size: 0.9rem;
 }
 
-.btn-secondary {
+.btn-primary {
 
     background-color: var(--secondary-color);
     color: var(--color-white);
     border: 1px solid var(--secondary-color);
+    cursor: pointer;
 }
 
-.btn:hover {
+
+.btn-secondary {
+
+    background-color: var(--color-white);
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    cursor: pointer;
+}
+
+.btn-primary:hover {
 
     background-color: var(--button-hover);
-
-
 }
 
+
+.btn-secondary:hover {
+
+    background-color: var(--secondary-color);
+    color: var(--color-white);
+} 
 .card-heart-icon {
 
     position: absolute;
