@@ -72,6 +72,7 @@ input {
     display: grid;
     margin-top: 0.5rem;
     padding: 1rem;
+    grid-area: main;
 }
 
 .item-heading {
@@ -79,10 +80,9 @@ input {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    column-gap: 0.5rem;
     margin-bottom: 1rem;
     text-decoration: underline var(--secondary-color);
-    grid-area: main;
+    
 
     
 }
