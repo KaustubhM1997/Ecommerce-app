@@ -179,15 +179,6 @@ input {
     cursor: pointer;
 }
 
-
-.btn-secondary {
-
-    background-color: var(--color-white);
-    color: var(--secondary-color);
-    border: 1px solid var(--secondary-color);
-    cursor: pointer;
-}
-
 .btn-primary:hover {
 
     background-color: var(--button-hover);
